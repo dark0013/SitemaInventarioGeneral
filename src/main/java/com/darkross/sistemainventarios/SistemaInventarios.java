@@ -11,6 +11,8 @@ package com.darkross.sistemainventarios;
 public class SistemaInventarios {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        prueba x = new prueba();
+        x.setNombre("");
+        x.getNombre();
     }
 }

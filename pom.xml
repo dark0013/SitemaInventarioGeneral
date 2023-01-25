@@ -11,4 +11,18 @@
         <maven.compiler.target>19</maven.compiler.target>
         <exec.mainClass>com.darkross.sistemainventarios.SistemaInventarios</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.1</version>
+        </dependency>
+    </dependencies>
+    
 </project>
